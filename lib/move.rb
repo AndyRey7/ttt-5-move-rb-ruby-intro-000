@@ -12,5 +12,6 @@ def input_to_index(num)
 end 
 
 def move(board_arr, board_index, player_input = "X")
+  board_arr[board_index] = player_input
 end
   
