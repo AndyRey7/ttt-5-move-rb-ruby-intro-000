@@ -10,3 +10,6 @@ end
 def input_to_index(num)
   num.to_i-1
 end 
+
+def move(board_arr, board_index, player_input = "X")
+  
